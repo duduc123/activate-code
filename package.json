@@ -1,0 +1,27 @@
+{
+  "name": "activate-code",
+  "version": "1.1.0",
+  "description": "Generate an auth code to activate client software, also with a server which use ecdh and aes-128.",
+  "main": "Generator.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "qr-image": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "verifying",
+    "number",
+    "ecdh",
+    "aes-128",
+    "http",
+    "client",
+    "2d-code",
+    "activate-client"
+  ],
+  "author": "duduc123",
+  "license": "ISC"
+}

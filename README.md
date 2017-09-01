@@ -1,11 +1,18 @@
 activate-code
-	ÓÉÁ½²¿·Ö×é³É£¬1.¿Í»§¶Ë²¿·Ö£¬¿ÉÒÔ²úÉú°üº¬´ıÑéÖ¤Èí¼şĞÅÏ¢µÄ×Ö·û´®£¨ÓÃÓÚÉú³É¶şÎ¬Âë£©ºÍÑéÖ¤Âë£»2¡¢·şÎñÆ÷²¿·Ö£¬ÑéÖ¤Ê¹ÓÃÈí¼şµÄÓÃ»§Éí·İ£¬²¢²úÉúÏàÍ¬µÄÑéÖ¤Âë·µ»Ø¸øÓÃ»§¡£
-	²Ù×÷¹ı³Ì£ºµ÷ÓÃ¿Í»§¶Ë²¿·Ö£¬»áµÃµ½ÓÃÓÚÉú²ú¶şÎ¬ÂëµÄ×Ö·û´®¡¢ÑéÖ¤Âë¡¢¶şÎ¬ÂëÍ¼Æ¬£¨/activate-code/test/2DCode.svg£©¡¢ÏÔÊ¾Í¼Æ¬µÄHTMLÎÄ¼ş£¨/activate-code/test/2wmTest.html£©£¬
-	ÓÃä¯ÀÀÆ÷´ò¿ª2wmTest.htmlºóÓÃÊÖ»úÉ¨Ãè¶şÎ¬Âë£¬Ôò»áµÃµ½ÑéÖ¤Âë¡£Í¨¹ıÊÖ»úµÄÑéÖ¤ÂëºÍ¿Í»§¶ËµÃµ½µÄÑéÖ¤ÂëÏà±È½Ï±ã¿ÉÒÔÈ·¶¨ÑéÖ¤ÂëÊÇ·ñÕıÈ·¡£
-	Éí·İÑéÖ¤¹ı³Ì²ÉÓÃÁË¶Ô³Æ¼ÓÃÜËã·¨ecdh£¬Òò´ËÃ¿´ÎÊ¹ÓÃ¿Í»§¶Ë¶¼»á²úÉú²»Í¬µÄ¶şÎ¬Âë×Ö·û´®£¬ÒÔ¼°ÓÃÓÚ½âÃÜµÄ¿Í»§¶ËË½Ô¿¡£Ê¹ÓÃaes-128¶ÔÓÃ»§Êı¾İ½øĞĞ¼ÓÃÜ£¬Ê¹ÓÃjenkinsHash+ecdhÉú³ÉÑéÖ¤Âë£¬À´±£Ö¤µÍ×²ÂëÂÊ¡£
+	
+	ç”±ä¸¤éƒ¨åˆ†ç»„æˆï¼Œ1.å®¢æˆ·ç«¯éƒ¨åˆ†ï¼Œå¯ä»¥äº§ç”ŸåŒ…å«å¾…éªŒè¯è½¯ä»¶ä¿¡æ¯çš„å­—ç¬¦ä¸²ï¼ˆç”¨äºç”ŸæˆäºŒç»´ç ï¼‰å’ŒéªŒè¯ç ï¼›2ã€æœåŠ¡å™¨éƒ¨åˆ†ï¼ŒéªŒè¯ä½¿ç”¨è½¯ä»¶çš„ç”¨æˆ·èº«ä»½ï¼Œå¹¶äº§ç”Ÿç›¸åŒçš„éªŒè¯ç è¿”å›ç»™ç”¨æˆ·ã€‚
+	
+	æ“ä½œè¿‡ç¨‹ï¼šè°ƒç”¨å®¢æˆ·ç«¯éƒ¨åˆ†ï¼Œä¼šå¾—åˆ°ç”¨äºç”Ÿäº§äºŒç»´ç çš„å­—ç¬¦ä¸²ã€éªŒè¯ç ã€äºŒç»´ç å›¾ç‰‡ï¼ˆ/activate-code/test/2DCode.svgï¼‰ã€æ˜¾ç¤ºå›¾ç‰‡çš„HTMLæ–‡ä»¶ï¼ˆ/activate-code/test/2wmTest.htmlï¼‰ï¼Œ
+	
+	ç”¨æµè§ˆå™¨æ‰“å¼€2wmTest.htmlåç”¨æ‰‹æœºæ‰«æäºŒç»´ç ï¼Œåˆ™ä¼šå¾—åˆ°éªŒè¯ç ã€‚é€šè¿‡æ‰‹æœºçš„éªŒè¯ç å’Œå®¢æˆ·ç«¯å¾—åˆ°çš„éªŒè¯ç ç›¸æ¯”è¾ƒä¾¿å¯ä»¥ç¡®å®šéªŒè¯ç æ˜¯å¦æ­£ç¡®ã€‚
+	èº«ä»½éªŒè¯è¿‡ç¨‹é‡‡ç”¨äº†å¯¹ç§°åŠ å¯†ç®—æ³•ecdhï¼Œå› æ­¤æ¯æ¬¡ä½¿ç”¨å®¢æˆ·ç«¯éƒ½ä¼šäº§ç”Ÿä¸åŒçš„äºŒç»´ç å­—ç¬¦ä¸²ï¼Œä»¥åŠç”¨äºè§£å¯†çš„å®¢æˆ·ç«¯ç§é’¥ã€‚ä½¿ç”¨aes-128å¯¹ç”¨æˆ·æ•°æ®è¿›è¡ŒåŠ å¯†ï¼Œä½¿ç”¨jenkinsHash+ecdhç”ŸæˆéªŒè¯ç ï¼Œæ¥ä¿è¯ä½æ’ç ç‡ã€‚
+	
 	has two parts : One is the client which can generate a http string for 2d code and an verifying string to activate client software; the other is the server
+	
 	which verifying the client auth and generating an code to the user.
-	Operation step: Use the client part ,then you get a string(for 2d-code)¡¢verification code¡¢/activate-code/test/2DCode.svg¡¢/activate-code/test/2wmTest.html, open the 2wmTest.html and
+	
+	Operation step: Use the client part ,then you get a string(for 2d-code)ã€verification codeã€/activate-code/test/2DCode.svgã€/activate-code/test/2wmTest.html, open the 2wmTest.html and
+	
 	scan the svg with phone, you can get an verification code which can be compared with previous verification code.
 activate-code uses ecdh to crypte the input args. So, the output strings are different every time.
 The input arguments will be crypted with aes-128 method. The verifying string are generated within jenkinsHash32 
@@ -14,25 +21,44 @@ string to requesting user. And also, communicate its public ecdh key with the se
 
 Installation
 npm install activate-code
+
  
 Usage
-1¡¢¿ªÆô·şÎñÆ÷ node activate-server
-2¡¢µ÷ÓÃ¿Í»§¶Ë²å¼ş£¬Ê¹ÓÃ·½·¨¿É²Î¼û/test/test.js
+
+1ã€å¼€å¯æœåŠ¡å™¨ node activate-server
+
+2ã€è°ƒç”¨å®¢æˆ·ç«¯æ’ä»¶ï¼Œä½¿ç”¨æ–¹æ³•å¯å‚è§/test/test.js
+
 var qr = require('qr-image');
+
 var Generator = require('../Generator');
+
 var generator = new Generator({
+	
 	ip:"127.0.0.1",/*server ip*/
+	
 	port:"8888",/*server port*/
+	
 	userId:"10001", /*the user for the activating software, should be < 4294967296*/
+	
 	softwareId:"12",/*the software id which needs to be activated, should be < 65536*/
+	
 	softwareVersion:"11"/*the software version which needs to be activated, should be < 65536*/
+
 }).then(function(data){
+		
 		console.log(data.code);
+		
 		console.log(data.verifyNum);
+		
 		var qr_svg = qr.image(data.code, { type: 'svg' });
-        qr_svg.pipe(require('fs').createWriteStream('2DCode.svg'));
-        var svg_string = qr.imageSync(data.code, { type: 'svg' });
+        
+	qr_svg.pipe(require('fs').createWriteStream('2DCode.svg'));
+        
+	var svg_string = qr.imageSync(data.code, { type: 'svg' });
+	
 	});
 
-Èç¹ûÄã¾õµÃÓĞ°ïÖúµÄ»°ÇëÁôÏÂstar
+å¦‚æœä½ è§‰å¾—æœ‰å¸®åŠ©çš„è¯è¯·ç•™ä¸‹star
+
 If you think it usefull, please click the star

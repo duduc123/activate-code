@@ -15,11 +15,15 @@ which has low collision. However, the activate-client are used together with the
 string to requesting user. And also, communicate its public ecdh key with the server part.
 
 Installation
+
 npm install activate-client
+
 npm install activate-server
  
 Usage
+
 1、开启服务器 node activate-server
+
 2、调用客户端插件，使用方法可参见/test/test.js
 
 	var Generator = require('activate-client');

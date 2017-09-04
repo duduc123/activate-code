@@ -21,17 +21,28 @@ npm install activate-server
 Usage
 1、开启服务器 node activate-server
 2、调用客户端插件，使用方法可参见/test/test.js
+
 	var Generator = require('activate-client');
+	
 	var generator = new Generator({
+		
 		ip:"127.0.0.1",/*server ip*/
+		
 		port:"8888",/*server port*/
+		
 		userId:"10001", /*the user for the activating software, should be < 4294967296*/
+		
 		softwareId:"12",/*the software id which needs to be activated, should be < 65536*/
+		
 		softwareVersion:"11"/*the software version which needs to be activated, should be < 65536*/
+	
 	}).then(function(data){
+		
 		console.log(data.code);
+		
 		console.log(data.verifyNum);
 	});
 
 如果你觉得有帮助的话请留下star
+
 If you think it usefull, please click the star
